@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F5F3F8">
+
+    <EditText
+        android:id="@+id/editTextUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User ID"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Name"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Create User"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/buttonFetch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fetch All Users"
+            android:backgroundTint="#7E57C2"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="6dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Update User"
+            android:backgroundTint="#5E35B1"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="6dp"/>
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete User"
+            android:backgroundTint="#4527A0"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="6dp"/>
+    </LinearLayout>
+</LinearLayout>
